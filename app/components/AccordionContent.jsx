@@ -18,7 +18,7 @@ export default function Acc() {
         <Accordion defaultExpandedKeys={["1"]}>
             <AccordionItem key="1" aria-label="Vídeo Tutorial" subtitle="Clique para abrir" title="Vídeo Tutorial" className="hover:bg-sky-100 transition-colors duration-200 rounded-lg px-4 font-bold dark:hover:bg-sky-700 py-4 my-4 bg-slate-200">
             <div className='flex justify-center items-center'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/K0rGpw0L-d0?si=uPpD0HFrc_yK3cdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe src="https://drive.google.com/file/d/1U4Pb6S02d-SM31qFLWRBmE-3a8k8t0ek/preview" width="100%" height="600" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
             </div>
             </AccordionItem>
             <AccordionItem key="2" aria-label="Caderno do Estudante" subtitle="Clique para abrir" title="Manual de Acesso à Plataforma" className="hover:bg-sky-100 transition-colors duration-200 rounded-lg px-4 font-bold dark:hover:bg-sky-700 py-4 my-4 bg-slate-200">
