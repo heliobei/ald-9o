@@ -81,7 +81,7 @@ const TwoColumnLayout = () => {
                 <p className="font-bold mb-4 px-8">
                   Como Educador:<br />
                   <span className="bg-slate-200 rounded-md px-2 font-normal text-sm dark:text-black dark:bg-slate-300">
-                  pietra.sa@eb.foredu.com.br
+                  paula.00000041@eb.foredu.com.br
                   </span>
                 </p>
                 <p className="font-bold mb-4 px-8">
@@ -99,7 +99,7 @@ const TwoColumnLayout = () => {
                 <p className="font-bold mb-4 px-8">
                   A senha para acessar estes usuários é<br />
                   <span className="bg-sky-200 rounded-md px-2 font-normal text-sm dark:text-black dark:bg-sky-300">
-                    *alterar*
+                    12345678!
                   </span>
                 </p>
                 <Button
