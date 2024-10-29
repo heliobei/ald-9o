@@ -21,7 +21,7 @@ export default function Acc() {
                 <iframe 
                     width="560" 
                     height="315" 
-                    src="https://youtu.be/K0rGpw0L-d0" 
+                    src="https://www.youtube.com/watch?v=K0rGpw0L-d0" 
                     title="YouTube video player" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
