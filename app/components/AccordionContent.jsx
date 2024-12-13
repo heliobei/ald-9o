@@ -42,7 +42,7 @@ export default function Acc() {
             href="https://drive.google.com/file/d/1IqaZU0DxJQtXWvQ2Gc8XMLf8rvkqFm8O/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-600 hover:underline mb-4"
+            className="text-sky-600 underline mb-4"
           >
             Abrir Vídeo
           </a>
@@ -58,7 +58,7 @@ export default function Acc() {
             href="https://drive.google.com/file/d/1W2qDAF5omndVyFoawPBIX35Y3Es3vDEu/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-600 hover:underline"
+            className="text-sky-600 underline"
           >
             Abrir Manual
           </a>
