@@ -32,7 +32,7 @@ export default function Acc() {
       {/* Icons for small screens */}
       <div className='block md:hidden text-center mt-8 mb-8 mx-16'>
         <div className='mb-6'>
-          <div className="mx-auto mb-2 w-16 h-16 bg-gradient-to-br from-sky-500 to-emerald-500 rounded-full flex items-center justify-center">
+          <div className="mx-auto mb-2 w-16 h-16 bg-gradient-to-br from-sky-500 to-orange-500 rounded-full flex items-center justify-center">
             <FaVideo size={30} className="text-white m-4" />
           </div>
           <h1 className="text-xl font-bold text-slate-800 dark:text-white max-w-[140px] mx-auto mb-2">
@@ -48,7 +48,7 @@ export default function Acc() {
           </a>
         </div>
         <div>
-          <div className="mx-auto mb-2 w-16 h-16 bg-gradient-to-br from-sky-500 to-emerald-500 rounded-full flex items-center justify-center">
+          <div className="mx-auto mb-2 w-16 h-16 bg-gradient-to-br from-sky-500 to-yellow-500 rounded-full flex items-center justify-center">
             <FaFileAlt size={30} className="text-white m-4" />
           </div>
           <h1 className="text-xl font-bold text-slate-800 dark:text-white max-w-[140px] mx-auto mb-2">
