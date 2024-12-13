@@ -59,7 +59,7 @@ const TwoColumnLayout = () => {
             alt="Background"
             className="absolute inset-0 w-full h-full object-cover hidden md:block"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-orange-600 to-green-200 opacity-80 hidden md:block"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-yellow-600 to-green-200 opacity-80 hidden md:block"></div>
 
           {/* Novo conteúdo centralizado */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center py-16 md:py-0 ">
