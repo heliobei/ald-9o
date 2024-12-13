@@ -64,7 +64,7 @@ const TwoColumnLayout = () => {
           {/* Novo conteúdo centralizado */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center py-16 md:py-0 ">
             <Image 
-              src="/8o.png" 
+              src="/9o.png" 
               alt="Aprendendo a lidar com dinheiro" 
               width={500} 
               height={500} 
