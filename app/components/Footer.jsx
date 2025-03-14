@@ -63,7 +63,7 @@ function Footer() {
         </div>
         
       </footer>
-      <p><span className='flex text-sm py-4 align-middle justify-center bg-sky-600  text-blue-50'>2024 © Todos os direitos reservados</span></p>
+      <p><span className='flex text-sm py-4 align-middle justify-center bg-sky-600  text-blue-50'>2025 © Todos os direitos reservados</span></p>
     </>
   );
 }
