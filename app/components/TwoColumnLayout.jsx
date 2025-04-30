@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 const TwoColumnLayout = () => {
   return (
-    <div className="relative min-h-[80vh] flex items-center justify-center bg-slate-200 dark:bg-slate-600">
+    <div className="relative min-h-screen flex items-center justify-center bg-slate-200 dark:bg-slate-700">
       {/* Imagem de fundo e gradiente */}
       <img
         src="/teachs.jpg"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-yellow-700 to-green-200 opacity-80"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-yellow-700 to-green-300"></div>
 
       {/* Logo no canto superior esquerdo */}
       <a
@@ -28,28 +28,56 @@ const TwoColumnLayout = () => {
         />
       </a>
 
-      {/* Conteúdo centralizado */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center pt-16">
-        <Image
-          src="/9o.png"
-          alt="Aprendendo a lidar com dinheiro"
-          width={500}
-          height={500}
-          className="w-64 sm:w-64 md:w-64 lg:w-80 xl:w-96"
-        />
-        <div className="mt-4">
+      {/* Conteúdo centralizado em duas colunas */}
+      <div className="relative z-10 max-w-6xl w-full px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        {/* Coluna da imagem e logo */}
+        <div className="flex flex-col items-center justify-center text-center md:text-left">
           <Image
-            src="/SEED.png"
-            alt="Logo"
-            width={200}
-            height={100}
-            className="mx-auto"
+            src="/9o.png"
+            alt="Capa do material"
+            width={500}
+            height={500}
+            className="w-60 md:w-72 lg:w-80 xl:w-96 mb-6"
           />
-
-          <h1 className='py-4 my-4 px-8 font-bold md:text-xl text-normal text-white bg-[rgba(155,155,155,0.5)] rounded-xl'>
-            O Conteúdo será atualizado em breve.
-          </h1>
           
+        </div>
+
+        {/* Coluna com os botões e textos */}
+        <div className="bg-white/40 dark:bg-black/30 backdrop-blur-md rounded-xl shadow-lg p-8 md:p-10 flex flex-col gap-8 justify-center">
+          <div className="text-center md:text-left">
+            <h2 className="text-2xl font-semibold text-slate-800 dark:text-white mb-3">
+              Acesse o Caderno do Educador
+            </h2>
+            <p className="text-slate-700 dark:text-slate-200 mb-4">
+              Explore o conteúdo completo com orientações e atividades planejadas para o educador.
+            </p>
+            <a
+              href="https://www.flipsnack.com/7E8DB9BBDC9/ajustes_28fev_ald_educador_9/full-view.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-yellow-600 hover:bg-yellow-500 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+            >
+              Ver Caderno
+            </a>
+          </div>
+
+          <div className="text-center md:text-left">
+            <h2 className="text-2xl font-semibold text-slate-800 dark:text-white mb-3">
+              Acesse o Livro do Estudante
+            </h2>
+            <p className="text-slate-700 dark:text-slate-200 mb-4">
+              Material didático completo para os estudantes acompanharem as aulas e atividades.
+            </p>
+            <a
+              href="https://www.flipsnack.com/7E8DB9BBDC9/ajustes_28fev_ald_estudante_9/full-view.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+            >
+              Ver Livro
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -57,3 +85,4 @@ const TwoColumnLayout = () => {
 };
 
 export default TwoColumnLayout;
+
