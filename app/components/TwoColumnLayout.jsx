@@ -45,22 +45,7 @@ const TwoColumnLayout = () => {
 
         {/* Coluna com os botões e textos */}
         <div className="bg-white/40 dark:bg-black/30 backdrop-blur-md rounded-xl shadow-lg p-8 md:p-10 flex flex-col gap-8 justify-center">
-          <div className="text-center md:text-left">
-            <h2 className="text-2xl font-semibold text-slate-800 dark:text-white mb-3">
-              Acesse o Caderno do Educador
-            </h2>
-            <p className="text-slate-700 dark:text-slate-200 mb-4">
-              Explore o conteúdo completo com orientações e atividades planejadas para o educador.
-            </p>
-            <a
-              href="https://www.flipsnack.com/7E8DB9BBDC9/ajustes_28fev_ald_educador_9/full-view.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-yellow-600 hover:bg-yellow-500 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
-            >
-              Ver Caderno
-            </a>
-          </div>
+          
 
           <div className="text-center md:text-left">
             <h2 className="text-2xl font-semibold text-slate-800 dark:text-white mb-3">
